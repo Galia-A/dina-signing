@@ -1,0 +1,34 @@
+@import "../../styles/variables";
+
+.homepage {
+  margin: 20px;
+
+  .banner {
+    background-image: url("./../../assets/banner/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    width: 100%;
+    height: 19rem;
+    margin: 0 auto;
+    overflow: visible;
+    position: relative;
+
+    .profile-picture {
+      background-image: url("./../../assets/banner/profile-picture.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      border-radius: 50%;
+      width: 14em;
+      height: 14em;
+      top: 100%;
+      right: 50%;
+      transform: translate(50%, -50%);
+      display: block;
+      border: 2px $highlightColor solid;
+    }
+  }
+}
