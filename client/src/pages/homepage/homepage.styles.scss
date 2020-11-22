@@ -31,4 +31,21 @@
       border: 2px $highlightColor solid;
     }
   }
+  .welcome-text {
+    font-family: "GveretLevin";
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    // padding-top: 3vw;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    width: 50%;
+
+    background-image: url("../../assets/homepage/i-love-you.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: 20% 100%;
+
+    // border: 1px black solid;
+  }
 }

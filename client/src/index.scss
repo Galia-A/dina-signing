@@ -1,13 +1,30 @@
+@font-face {
+  font-family: "GveretLevin";
+  src: url("./styles/fonts/GveretLevin.ttf") format("ttf"),
+    url("./styles/fonts/GveretLevin.otf") format("otf"),
+    url("./styles/fonts/GveretLevin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DanaYad";
+  src: url("./styles/fonts/DanaYad.eot") format("eot"),
+    url("./styles/fonts/DanaYad.otf") format("otf"),
+    url("./styles/fonts/DanaYad.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
