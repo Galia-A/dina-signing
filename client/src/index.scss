@@ -14,6 +14,14 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "YamSuf";
+  src: url("./styles/fonts/YamSuf.ttf") format("ttf"),
+    url("./styles/fonts/YamSuf.otf") format("otf"),
+    url("./styles/fonts/YamSuf.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;

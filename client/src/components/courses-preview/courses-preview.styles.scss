@@ -1,0 +1,73 @@
+@import "../../styles/variables";
+
+.courses-preview {
+  display: flex;
+  //   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  font-size: large;
+
+  .course {
+    border: 2px solid $mainColor;
+    border-radius: 20%;
+    padding: 1.5vw;
+    padding-top: 3vw;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.8vw;
+    flex: 1 auto;
+    width: 280px;
+    max-width: 280px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    overflow-wrap: break-word;
+
+    .course-headline {
+      font-weight: bold;
+    }
+
+    .course-text {
+      display: inline-block;
+      padding: 1vw;
+    }
+
+    .course-details {
+      font-weight: 600;
+    }
+
+    .details-button {
+      font-size: 1rem;
+      text-align: center;
+      color: #fff;
+      width: 50%;
+      padding: 0.3em 1.2em;
+      background-color: $mainColor;
+      text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+      border: 0.16em solid rgba(255, 255, 255, 0);
+      border-radius: 2em;
+      cursor: pointer;
+      margin: 1vw auto 0 auto;
+
+      &:hover {
+        background-color: $lighterColor;
+      }
+    }
+
+    .course-icon {
+      position: absolute;
+      top: -15%;
+      & img {
+        display: inline-block;
+        width: 5vw;
+        height: 5vw;
+      }
+    }
+  }
+}
